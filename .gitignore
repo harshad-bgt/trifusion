@@ -1,0 +1,26 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/src/generated/prisma
+  
+.next  
+web/.next  
+*.log  
+.agents/ 
+
+# Google Service Account credentials — NEVER commit
+credentials/
+google-service-account*.json
+*-service-account.json
+service-account-*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+venv/
+.pytest_cache/
+alembic.ini
+backend/.env

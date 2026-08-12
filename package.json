@@ -1,0 +1,24 @@
+{
+  "name": "trifusion-technology",
+  "version": "1.0.0",
+  "description": "Trifusion Technology LLP — Official Website & Platform",
+  "private": true,
+  "scripts": {
+    "dev:web": "cd web && npm run dev",
+    "dev:api": "cd backend && python -m uvicorn app.main:app --reload --port 8000",
+    "dev": "npm run dev:web",
+    "postinstall": "cd web && npm install --no-audit",
+    "build:web": "cd web && npm run build",
+    "build": "npm run build:web",
+    "start:web": "cd web && npm start"
+  },
+  "keywords": [
+    "trifusion",
+    "technology",
+    "software",
+    "saas",
+    "web"
+  ],
+  "author": "Trifusion Technology LLP",
+  "license": "UNLICENSED"
+}
